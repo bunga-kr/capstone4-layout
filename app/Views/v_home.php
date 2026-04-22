@@ -1,5 +1,6 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
+<?php echo "TOP VIEW"; ?>
 <!-- Table with stripped rows -->
   <table class="table datatable">
     <thead>
