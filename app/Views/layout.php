@@ -75,7 +75,6 @@ if(uri_string()!=""){
 
           <div class="card">
             <div class="card-body">
-              <?php echo "LAYOUT LOADED"; ?>
               <h5 class="card-title"><?php echo $hlm?></h5>
               <?= $this->renderSection('content') ?>
             </div>
