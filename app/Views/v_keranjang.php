@@ -1,4 +1,6 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-halaman keranjang
+
+<?php echo "KERANJANG CONTENT WORKS"; ?>
+
 <?= $this->endSection() ?>
