@@ -6,7 +6,6 @@ $username = [
     'id' => 'username',
     'class' => 'form-control'
 ];
-
 $password = [
     'name' => 'password',
     'id' => 'password',
