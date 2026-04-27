@@ -9,10 +9,9 @@
                 <span>Home</span>
             </a>
         </li><!-- End Home Nav -->
-
         <li class="nav-item">
             <a class="nav-link <?php echo (uri_string() == 'keranjang') ? "" : "collapsed" ?>" href="keranjang">
-                <i class="bi bi-cart-check"></i>
+                <i class="bi bi-cart"></i>
                 <span>Keranjang</span>
             </a>
         </li><!-- End Keranjang Nav --> 
@@ -28,7 +27,12 @@
         <?php
         }
         ?>
-
+        <li class="nav-item">
+            <a class="nav-link <?php echo (uri_string() == 'profil') ? "" : "collapsed" ?>" href="profil">
+                <i class="bi bi-person-circle"></i>
+                <span>Profil</span>
+            </a>
+        </li><!-- End Keranjang Nav --> 
     </ul>
 
 </aside><!-- End Sidebar-->

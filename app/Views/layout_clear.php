@@ -1,3 +1,4 @@
+<!-- buat login -->
 <?php
 $hlm = "Home";
 if(uri_string()!=""){
